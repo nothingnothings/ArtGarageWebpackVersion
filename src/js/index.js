@@ -1,16 +1,12 @@
-
-
 import './assets/css/style.css';
 
-
-import about1 from '../assets/images/about1.jpg'
-import about2 from '../assets/images/about2.jpg'
-import products1 from '../assets/images/products1.jpg'
-import products2 from '../assets/images/products2.jpg'
-import products3 from '../assets/images/products3.jpg'
+import about1 from '../assets/images/about1.jpg';
+import about2 from '../assets/images/about2.jpg';
+import products1 from '../assets/images/products1.jpg';
+import products2 from '../assets/images/products2.jpg';
+import products3 from '../assets/images/products3.jpg';
 
 import favicon from '../assets/images/favicon.ico';
-
 
 function reveal() {
   var reveals = document.querySelectorAll('.reveal');
