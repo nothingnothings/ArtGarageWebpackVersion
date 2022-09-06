@@ -71,6 +71,93 @@ The Webpack workflow's production output, as shown in the gh-pages branch (taske
 └── index.html
 ```
 
+## Webpack and Project Configuration Files
+
+The webpack.config.js file used in the project:
+
+```
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const path = require('path');
+
+module.exports = {
+  entry: './src/js/index.js',
+
+  mode: 'production',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    assetModuleFilename: (pathData) => {
+      const filePath = path
+        .dirname(pathData.filename)
+        .split('/')
+        .slice(1)
+        .join('/');
+      return `${filePath}/[name][ext]`;
+    },
+  },
+  resolve: {
+    extensions: ['.js'],
+  },
+
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(woff|woff2|ttf|eot)$/,
+        type: 'asset/resource',
+      },
+
+      {
+        test: /\.(?:ico|gif|png|jpg|jpeg|svg|xml|webmanifest)$/i,
+        type: 'asset/resource',
+      },
+    ],
+  },
+
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'src/index.html',
+    }),
+    new CleanWebpackPlugin(),
+  ],
+
+  performance: {
+    hints: false,
+  },
+};
+```
+
+The package.json file:
+
+```
+{
+  "name": "projetoartgaragewebpack",
+  "version": "1.0.0",
+  "description": "![ArtGarage](/images/ArtGarage.png)",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
+```
 
 ## Setup
 
