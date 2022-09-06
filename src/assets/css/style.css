@@ -452,6 +452,11 @@ img {
     display: flex;
     justify-content: center;
   }
+
+  .menu-nav ul li {
+    font-size: 0.8rem;
+    margin: 0 -0.3rem
+  }
 }
 
 @media (max-width: 472px) {
