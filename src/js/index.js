@@ -9,6 +9,7 @@ import products1 from '../assets/images/products1.jpg'
 import products2 from '../assets/images/products2.jpg'
 import products3 from '../assets/images/products3.jpg'
 
+import favicon from '../assets/images/favicon.ico';
 
 
 function reveal() {
