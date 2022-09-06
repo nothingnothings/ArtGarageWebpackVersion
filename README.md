@@ -2,7 +2,9 @@
 
 # ArtGarage
 
-Frontend App built with vanilla HTML, CSS and Javascript. Flexbox and media queries were used for the responsive design (attempting to cater to multiple device types, both desktop and mobile, with different resolutions). The webApp was bundled with Webpack and deployed with `gh-pages`, assisted by the GitHub Actions feature. It can be accessed [here](https://nothingnothings.github.io/ArtGarageWebpackVersion/).
+Frontend App built with vanilla HTML, CSS and Javascript. Flexbox and media queries were used for the responsive design (attempting to cater to multiple device types, both desktop and mobile, with different resolutions). 
+
+The webApp was bundled with Webpack and deployed with `gh-pages`, assisted by the GitHub Actions feature. It can be accessed [here](https://nothingnothings.github.io/ArtGarageWebpackVersion/).
 
 ## Technologies
 
