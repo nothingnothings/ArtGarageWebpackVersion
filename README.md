@@ -78,7 +78,7 @@ To use this project, clone it using Git:
 
 1. Run `git clone` to clone the project into your local Git repository
 2. Run `npm install` to install all dependencies
-3. Run `npm run build:prod` to create the production version of the app (outputted in /dist)
+3. Run `npm run build:prod` to create the production version of the app (outputted in `/dist`)
 4. Serve the production files locally (e.g. webpack-dev-server), or on the web, with the help of a hosting provider
 
 ## Features
