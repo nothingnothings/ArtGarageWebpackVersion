@@ -1,4 +1,4 @@
-import './assets/css/style.css';
+import '../assets/css/style.css';
 
 import about1 from '../assets/images/about1.jpg';
 import about2 from '../assets/images/about2.jpg';
