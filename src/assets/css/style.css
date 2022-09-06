@@ -438,6 +438,11 @@ img {
   opacity: 1;
 }
 
+.github-link {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+
 @media (max-width: 376px) {
   .about-img {
     margin-top: 3rem;
