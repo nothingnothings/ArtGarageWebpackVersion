@@ -1,4 +1,4 @@
-![ArtGarage](/images/ArtGarage.png)
+![ArtGarage](/src/assets/images/ArtGarage.png)
 
 # ArtGarage
 
