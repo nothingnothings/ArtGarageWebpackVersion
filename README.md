@@ -14,6 +14,64 @@ Some of the Languages and Libraries employed:
 
 ## Project Directory Structure 
 
+The development environment (with the use of a Webpack workflow):
+
+```
+.\
+│
+├── src\
+│   │
+│   ├── assets\
+│   │   │
+│   │   ├── css\
+│   │   │   └── style.css
+│   │   │
+│   │   └── images\
+│   │       ├── ArtGarage.png
+│   │       ├── about1.jpg
+│   │       ├── about2.jpg
+│   │       ├── favicon.ico
+│   │       ├── products1.jpg
+│   │       ├── products2.jpg
+│   │       └── products3.jpg
+│   │
+│   │
+│   ├── js\
+│   │   └── index.js
+│   │
+│   └── index.html
+│
+├── .gitignore
+├── README.md
+├── package-lock.json
+├── package.json
+└── webpack.config.js
+
+```
+
+The Webpack workflow's production output, as shown in the gh-pages branch (tasked with the deployment of the app):
+
+
+```
+.\
+│
+├── assets\
+│   │
+│   └── images\
+│       ├── about1.jpg
+│       ├── about2.jpg
+│       ├── favicon.ico
+│       ├── products1.jpg
+│       ├── products2.jpg
+│       └── products3.jpg
+│
+│
+├── .nojekyll
+├── bundle.js
+└── index.html
+```
+
+
 ## Setup
 
 To use this project, clone it using Git:
