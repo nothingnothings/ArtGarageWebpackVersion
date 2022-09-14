@@ -176,6 +176,7 @@ To use this project, clone it using Git:
 - Responsive design (mobile and desktop) created with Flexbox and media queries
 - Addition/removal of CSS classes ("slide-in" animation) implemented with JavaScript
 - Usage of GitHub Actions and GitHub Pages with Webpack, for a seamless workflow (transition from development stage to production/deployment stage). Upon the `git push command`, GitHub Actions transfers the contents of the master branch into the `gh-pages` branch, which then deploys the app at https://nothingnothings.github.io/ArtGarageWebpackVersion/.
+- Custom favicon, compatible with multiple devices
 
 
 ## Inspiration
