@@ -250,7 +250,10 @@ img {
   display: block;
   text-align: center;
   font-weight: bold;
-  padding: 10px 0px 5px 0px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
   border-top: 4px solid #2c70ff;
   border-bottom: 4px solid #2c70ff;
   font-size: 3em;
