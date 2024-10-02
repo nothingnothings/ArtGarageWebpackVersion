@@ -7,7 +7,8 @@ Frontend App built with vanilla HTML, CSS and Javascript. Flexbox and media quer
 The webApp was bundled with Webpack and deployed with `gh-pages`, assisted by the GitHub Actions feature. It can be accessed [here](https://nothingnothings.github.io/ArtGarageWebpackVersion/).
 
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/nothingnothings/ArtGarageWebpackVersion/master?style=flat-square)
-[![HitCount](https://hits.dwyl.com/nothingnothings/ArtGarageWebpackVersion.svg?style=flat-square)](http://hits.dwyl.com/nothingnothings/ArtGarageWebpackVersion)
+[![en](https://img.shields.io/badge/lang-en-red.svg?style=flat-square)](https://github.com/nothingnothings/ArtGarageWebpackVersion)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg?style=flat-square)](https://github.com/nothingnothings/ArtGarageWebpackVersion/blob/master/README.pt-br.md)
 
 
 ## Technologies
