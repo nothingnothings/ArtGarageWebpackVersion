@@ -9,7 +9,8 @@ Este webApp foi bundled com Webpack e foi realizado seu deploy com o `gh-pages`,
 
 
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/nothingnothings/ArtGarageWebpackVersion/master?style=flat-square)
-[![HitCount](https://hits.dwyl.com/nothingnothings/ArtGarageWebpackVersion.svg?style=flat-square)](http://hits.dwyl.com/nothingnothings/ArtGarageWebpackVersion)
+[![en](https://img.shields.io/badge/lang-en-red.svg?style=flat-square)](https://github.com/nothingnothings/ArtGarageWebpackVersion)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg?style=flat-square)](https://github.com/nothingnothings/ArtGarageWebpackVersion/blob/master/README.pt-br.md)
 
 
 ## Tecnologias
